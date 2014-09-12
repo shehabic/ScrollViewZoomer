@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.shehabic.scrollviewzoomer.ScrollViewZoomer
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollable"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00000000"
+        android:fadingEdge="none" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2                    
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+        Lorem Ipsum Starting activity com.example.android.interactivechart.MainActivity on device d3dd95e2
+" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.shehabic.scrollviewzoomer.ScrollViewZoomer>
+
+</LinearLayout>
